@@ -1,0 +1,58 @@
+{
+    "Name": "MicroserviceTemplate",
+    "Version": "v1.0.0",
+    "Packages": {
+        "booqall.com/errors/connectionerros": {
+            "Uri": "https://gitlab.com/b5439/backend/errors/go/connection_errors.git",
+            "Private": true
+        },
+        "booqall.com/libraries/autoconfix": {
+            "Uri": "https://gitlab.com/b5439/backend/libraries/go/autoconfix.git",
+            "Private": true
+        },
+        "booqall.com/libraries/confix": {
+            "Uri": "https://gitlab.com/b5439/backend/libraries/go/confix.git",
+            "Private": true
+        },
+        "booqall.com/libraries/connex": {
+            "Uri": "https://gitlab.com/b5439/backend/libraries/go/connex.git",
+            "Private": true
+        },
+        "booqall.com/libraries/infox": {
+            "Uri": "https://gitlab.com/b5439/backend/libraries/go/infox.git",
+            "Private": true
+        },
+        "booqall.com/libraries/iocx": {
+            "Uri": "https://gitlab.com/b5439/backend/libraries/go/iocx.git",
+            "Private": true
+        },
+        "booqall.com/libraries/natsprotobufconnection": {
+            "Uri": "https://gitlab.com/b5439/backend/libraries/go/nats-protobuf-connection.git",
+            "Private": true
+        },
+        "booqall.com/libraries/runtmx": {
+            "Uri": "https://gitlab.com/b5439/backend/libraries/go/runtimex.git",
+            "Private": true
+        },
+        "booqall.com/libraries/stox": {
+            "Uri": "https://gitlab.com/b5439/backend/libraries/go/stox.git",
+            "Private": true
+        },
+        "booqall.com/pipelines/nats": {
+            "Uri": "https://gitlab.com/b5439/backend/pipelines/go/nats.git",
+            "Private": true
+        },
+        "logrus": {
+            "Uri": "github.com/sirupsen/logrus",
+            "Private": false
+        },
+        "nats": {
+            "Uri": "github.com/nats-io/nats.go",
+            "Private": false
+        },
+        "zstd": {
+            "Uri": "github.com/DataDog/zstd",
+            "Private": false
+        }
+    }
+}
